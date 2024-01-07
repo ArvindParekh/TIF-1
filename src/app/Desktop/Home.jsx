@@ -1,5 +1,5 @@
 import Vector from "@/assets/vector.svg";
-import PizzaImg from "@/assets/pizza.png";
+import PizzaImg from "@/assets/pizza.svg";
 import foodTruck from "@/assets/food-truck.svg";
 
 const HomeDesktop = () => {
@@ -10,12 +10,12 @@ const HomeDesktop = () => {
           <div id="right-top" className="w-1/2">
             <img
               src={PizzaImg}
-              className="absolute top-0 right-0 z-10 h-full"
+              className="absolute top-0 right-0 z-10 h-[804px]"
               alt="pizza-img"
             />
             <img
               src={Vector}
-              className="absolute top-0 right-0 z-20 h-full"
+              className="absolute top-0 right-0 z-20 h-[839px]"
               alt="vector"
             />
             <button className="border border-white absolute top-8 right-[41px] z-30 w-[122px] h-[42px] text-sm font-medium rounded-[21px] text-white">
