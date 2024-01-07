@@ -42,7 +42,7 @@ const HomeDesktop = () => {
               Naturally made Healthcare Products for the better care & support
               of your body.
             </p>
-            <button className="bg-[#E23744] text-white text-[18px] font-bold leading-[36px] tracking[1%] w-[190px] h-[63px] rounded-[34px]">
+            <button className="bg-[#E23744] text-white text-[18px] font-bold leading-[36px] tracking[1%] w-[190px] h-[63px] rounded-[34px] cursor-pointer">
               Explore Now!
             </button>
           </div>

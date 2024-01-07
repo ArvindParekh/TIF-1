@@ -1,21 +1,21 @@
 
 // eslint-disable-next-line react/prop-types
-const ArticleCard = ({src, title, desc})=>{
+const ArticleCardMobile = ({src, title, desc})=>{
 
     return (
         <>
-            <section className="w-[381px] h-[554px] rounded-[20.94px] border-[1.37px] flex flex-col items-center">
-                <div className="mt-[27px] mb-[35.51px]">
-                    <img src={src} alt={`article-${src}`} />
+            <section className="w-[271px] h-[484px] rounded-[26.77px] border-[0.88px] border-[#373737] mx-auto flex flex-col items-center">
+                <div className="mt-[40px] mb-[39px]">
+                    <img src={src} alt={`article-${src}`} width={204} height={166} />
                 </div>
-                <div className="flex flex-col items-start justify-center w-[295px]">
-                    <h2 className="text-[#0E2368] text-[21px] font-bold mb-[14px]">{title}</h2>
-                    <p className="text-[#444957] text-[15px] font-normal leading-[27px] mb-[30.41px]">{desc}</p>
-                    <button className="w-[131px] h-[42px] border border-[#424961] text-[#424961] rounded-[21px] cursor-pointer">Read More</button>
+                <div className="flex flex-col items-center justify-center w-[295px]">
+                    <h2 className="text-[#0E2368] text-[16px] font-bold tracking-wider mb-[6px]">{title}</h2>
+                    <p className="w-[213px] text-[#444957] text-[12px] font-normal leading-[22px] mb-[26px]">{desc}</p>
+                    <button className="w-[118px] h-[26px] border-2 border-[#424961] text-[#424961] text-[11px] rounded-[27px] cursor-pointer">Read More</button>
                 </div>
             </section>
         </>
     )
 }
 
-export default ArticleCard;
+export default ArticleCardMobile;

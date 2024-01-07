@@ -59,7 +59,7 @@ const ContactDesktop = () => {
               c 2022 Food Truck Example
             </footer>
             <aside>
-              <span className="flex items-center justify-center space-x-5">
+              <span className="flex items-center justify-center space-x-5 cursor-pointer">
                 <img
                   src={instagramLogo}
                   width={21}

@@ -3,8 +3,9 @@ import "./App.css";
 // import PizzaImg from "@/assets/pizza.png"
 import Home from "./app/Home";
 import AboutUs from "./app/About";
-import Articles from "./app/Desktop/Articles";
-import Footer from "./app/Footer";
+import ArticlesDesktop from "./app/Desktop/Articles";
+import Articles from "./app/Articles";
+import Footer from "./app/Contact";
 import HomeDesktop from "./app/Desktop/Home";
 import AboutUsDesktop from "./app/Desktop/About";
 import ContactDesktop from "./app/Desktop/Contact";
@@ -20,6 +21,7 @@ function App() {
         <AboutUsDesktop />
 
         <Articles />
+        <ArticlesDesktop />
 
 
         <Footer />

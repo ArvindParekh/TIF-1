@@ -20,7 +20,7 @@ const AboutUsDesktop = () => {
                 galley of type and scrambled it to make a type specimen book. t
                 has survived not only five centuries.
               </p>
-              <button className="bg-[#E23744] text-white text-[16px] font-semibold w-[132px] h-[42px] tracking-[3%] rounded-[21px]">
+              <button className="bg-[#E23744] text-white text-[16px] font-semibold w-[132px] h-[42px] tracking-[3%] rounded-[21px] cursor-pointer">
                 Read More
               </button>
             </div>

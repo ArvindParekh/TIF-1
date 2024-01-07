@@ -16,7 +16,7 @@ const Home = () => {
             className="absolute top-0 right-0 z-20"
             alt="vector"
           />
-          <button className="absolute top-3 right-5 z-30 px-3 py-2 text-sm font-medium rounded-full text-white border border-white">
+          <button className="absolute top-3 right-5 z-30 px-3 py-2 text-sm font-medium rounded-full text-white border border-white cursor-pointer">
             Get in Touch
           </button>
         </div>

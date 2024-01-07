@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
                 <div className="text-center my-10">
                     <footer className="text-[#828B9C] my-4">c 2022 Food Truck Example</footer>
-                    <span className="flex items-center justify-center space-x-5">
+                    <span className="flex items-center justify-center space-x-5 cursor-pointer">
                         <img src={instagramLogo} alt="instagram-logo" />
                         <img src={twitterLogo} alt="twitter-logo" />
                         <img src={facebookLogo} alt="facebook-logo" />
