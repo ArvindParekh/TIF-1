@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
         <>
-            <section className="flex flex-col bg-gray-100 px-[42px]">
+            <section className="flex flex-col bg-gray-100 px-[42px] md:hidden">
                 <img src={FoodTruck} width={75} height={58} className="mx-auto mt-[52px] mb-[42px]" />
                 <div className="my-10">
                     <h1 className="text-[#0E2368] font-semibold text-[15.77px] leading-[34.8px] tracking-wide mb-2">Contact Us</h1>
