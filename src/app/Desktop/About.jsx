@@ -8,8 +8,8 @@ const AboutUsDesktop = () => {
           <div className="w-1/2">
             <img src={aboutImage} className="mx-auto" alt="about-image" />
           </div>
-          <div className="w-1/2 h-full my-auto flex items-center">
-            <div className="w-[447px] flex flex-col justify-center">
+          <div className="w-1/2 h-full my-auto flex items-center justify-center">
+            <div className="w-[447px] flex flex-col justify-center text-left">
               <h1 className="text-[#0E2368] text-[45px] font-semibold leading-[27px] mb-[27.41px]">
                 About Us
               </h1>
